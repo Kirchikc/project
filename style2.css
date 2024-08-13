@@ -1,0 +1,57 @@
+* {box-sizing: border-box}
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 15px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 82px;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+title{
+    font-family: "Lao Muang Don";
+}
+.button {
+    background-color: rgba(223, 144, 159, 1);
+    border: 3px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 82px;
+
+  }
+
+  .button2{
+    background-color: rgba(223, 144, 159, 1);
+    color: black;
+    border: 2px solid rgba(223, 144, 159, 1);
+    position: absolute;
+    width: 180px;
+    height: 35px;
+    top: 730px;
+
+  }
+.button2:hover {
+    background-color:white;
+    color:black;
+
+  }
+.container {
+  margin-top: 30px;
+  padding: 16px;
+  margin-left: 150px;
+  margin-right: 1200px;
+}
+
+

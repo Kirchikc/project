@@ -1,0 +1,613 @@
+.container{
+    max-width: 1546px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.make {
+    position: absolute;
+    width: 550px;
+    height: 650px;
+    left: 930px;
+    top: 100px;
+    background: url(Makeup-Transparent.png);
+    /* Group 355 */
+
+position: absolute;
+width: 703px;
+height: 767px;
+left: 1093px;
+top: 124px;
+
+
+}
+
+ body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: 500;
+}
+
+.header {
+    max-width: 1430px;
+
+    padding-top: 35px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_logo {
+    width: 300px;
+    height: 120px;
+    background-image: url(images/MIEN.png);
+    background-repeat: no-repeat;
+    left: 200px;
+    /* MIEN */
+
+position: absolute;
+width: 330px;
+height: 115px;
+left: 184px;
+top: 25px;
+
+font-family: 'KyivType Sans';
+font-style: normal;
+font-weight: 350;
+font-size: 96px;
+line-height: 115px;
+letter-spacing: 0.2em;
+
+color: #000000;
+
+
+}
+
+.form {
+    position: relative;
+    top: -20px;
+    /* поиск */
+
+    position: absolute;
+    width: 432px;
+    height: 51px;
+    left: 585px;
+    top: 61px;
+
+
+}
+
+.form_button {
+    display:flex;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    left: 11px;
+    top: 3px;
+    background-image: url(images/лупэо.svg);
+
+}
+
+
+.form_input {
+    width: 300px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 10px 40px;
+    color: #000000;
+    /* поиск */
+
+
+
+
+}
+
+.form_input::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.form_input:focus {
+    outline: none
+}
+
+.header_list {
+    display: flex;
+    list-style-type: none;
+
+
+    position: absolute;
+    width: 658px;
+    height: 51px;
+    left: 472px;
+    top: 21px;
+
+
+}
+
+.button{
+    background-color: rgba(223, 144, 159, 1);
+    border: 3px;
+    color: white;
+    width: 1900px;
+    height: 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 82px;
+
+  }
+
+  .button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid rgba(223, 144, 159, 1);
+    font-family: Lao Muang Don;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+
+
+
+  }
+
+  .button1:hover {
+    background-color:rgba(223, 144, 159, 1);
+    color: white;
+  }
+
+    .button2{
+    background-color: rgba(223, 144, 159, 1);
+    color: black;
+    border: 2px solid rgba(223, 144, 159, 1);
+    position: absolute;
+    width: 382px;
+    height: 50px;
+    left: 316px;
+    top: 700px;
+    text-align: center;
+    text-decoration-color: black;
+    font-family: Lao Muang Don;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0.1em;
+    }
+    
+    .button2:hover {
+        background-color:white;
+        color:black;
+        
+
+      }
+
+    .welcome_text{
+        width: 550px;
+    }
+    .welcome__title{
+
+
+    position: absolute;
+    width: 1253px;
+    height: 226px;
+    left: 184px;
+    top: 248px;
+
+    font-family: 'Lao Muang Don';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 113px;
+    letter-spacing: 0.2em;
+
+    color: #000000;
+
+
+}
+    .welcome__desc{
+
+    position: absolute;
+    width: 637px;
+    height: 33px;
+    left: 188px;
+    top: 510px;
+
+    font-family: 'Lao Muang Don';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 33px;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+
+
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    font-weight: 500;
+}
+
+    .welcome__title3{
+        /* О нас */
+
+    position: absolute;
+    width: 256px;
+    height: 121px;
+    left: calc(50% - 256px/2);
+    top: 935px;
+
+    font-family: 'Lao Muang Don';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 121px;
+    /* identical to box height */
+
+    color: #000000;
+
+
+    }
+
+    .welcome__desc3 {
+
+    position: absolute;
+    width: 734px;
+    height: 156px;
+    left: calc(50% - 734px/2);
+    top: 1100px;
+
+    font-family: 'Lao Muang Don';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #000000;
+    }
+
+    .lips {
+    position: absolute;
+    width: 380px;
+    height: 570px;
+    left: 1113px;
+    top: 1610px;
+
+    background: url(images/увеличение\ губ.jpeg);
+
+    }
+
+    .text_lips {
+
+    position: absolute;
+    width: 380px;
+    height: 85px;
+    left: 1113px;
+    top: 1834px;
+
+    text-transform:uppercase;
+    font-family: 'Lao Muang Don';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.15em;
+
+    color: #FFFFFF;
+
+    }
+
+    .text__lips1 {
+
+    position: absolute;
+    width: 280px;
+    height: 30px;
+    left: 1169px;
+    top: 1820px;
+
+
+    font-family: 'Lao Muang Don';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.15em;
+
+    color: #FFFFFF;
+    }
+
+    .manik{
+    position: absolute;
+    width: 379px;
+    height: 570px;
+    left: 427px;
+    top: 1860px;
+
+    background: url(LOGIKA10-47d7812c.jpg);
+
+    }
+
+
+
+  .manik1 {
+    /* Любой маникюр */
+    position: absolute;
+    width: 240px;
+    height: 30px;
+    left: 508px;
+    top: 2120px;
+
+    font-family: 'Lao Muang Don';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.15em;
+
+    color: #FFFFFF;
+
+
+    }
+
+
+    .manikur {
+        /* ВЫБЕРИТЕ ИДЕЮ, А МЫ ВОПЛОТИМ ЕЕ ДЛЯ ВАС */
+    position: absolute;
+    width: 379px;
+    height: 45px;
+    left: 440px;
+    top: 2149px;
+
+    text-transform:uppercase;
+    font-family: 'Lao Muang Don';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.15em;
+
+    color: #FFFFFF;
+
+
+     }
+
+
+    .hair_img {
+        /* Волосы картинка */
+
+    position: absolute;
+    width: 380px;
+    height: 570px;
+    left: 1113px;
+    top: 2430px;
+
+    background: url(LOGIKA4-6e94ff69.jpg);
+
+    }
+
+
+
+    .hair {
+     /* Счастье для волос */
+
+    position: absolute;
+    width: 275px;
+    height: 30px;
+    left: 1165px;
+    top: 2679px;
+
+    font-family: 'Lao Muang Don';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.15em;
+
+    color: #FFFFFF;
+
+
+     }
+
+    .hair1{
+     /* ЕСЛИ ВЫ ЕЩЁ НЕ ЗНАКОМЫ С УХОДОМ ОТ LABEL, ТО НУЖНО СКОРЕЕ ЭТО ИСПРАВИТЬ */
+
+    position: absolute;
+    width: 296px;
+    height: 48px;
+    left: 1155px;
+    top: 2715px;
+
+    font-family: 'Lao Muang Don';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.15em;
+
+    color: #FFFFFF;
+
+
+    }
+
+    .eye{
+    /* ресницы картинка */
+    position: absolute;
+    width: 379px;
+    height: 570px;
+    left: 427px;
+    top: 2715px;
+
+    background: url(LOGIKA2-eb68a9e4.jpg);
+
+    }
+
+    .eye_text {
+        /* Наращивание и ламинирование ресниц */
+
+    position: absolute;
+    width: 379px;
+    height: 60px;
+    left: 427px;
+    top: 2946px;
+
+    font-family: 'Lao Muang Don';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.15em;
+
+    color: #FFFFFF;
+
+
+        }
+
+    .eye_text2{
+     /* ЯРКИЕ, ПОДКРУЧЕННЫЕ И ЕСТВЕСТВЕННЫЕ - ВСЕ ЭТО ПРО ЛАМИНИРОВАНИЕ РЕСНИЦ */
+
+    position: absolute;
+    width: 350px;
+    height: 32px;
+    left: 442px;
+    top: 3017px;
+
+    font-family: 'Lao Muang Don';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.15em;
+
+    color: #FFFFFF;
+
+
+    }
+
+
+    .o_nas {
+        /* Цены */
+
+    position: absolute;
+    width: 310px;
+    height: 121px;
+    left: calc(50% - 310px/2);
+    top: 3452px;
+
+    font-family: 'Lao Muang Don';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 91px;
+    line-height: 121px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2em;
+
+    color: #000000;
+
+
+        }
+
+
+    details{
+        display:block;
+        margin-bottom: .5rem;
+      }
+      summary::-webkit-details-marker{display:none;}
+      summary::-moz-list-bullet{list-style-type:none;}
+      summary::marker{display:none;}
+      summary {
+         padding: .3em .5em .3em .4em;
+         display:inline-block;
+         font-size:1.4em;
+         cursor: pointer;
+      }
+      summary:after {
+        content: "+";
+        margin-left: .3em;
+        display: inline-block;
+        transition: transform .5s;
+      }
+      details[open] > summary:after {
+        transform: scale(1,-1);
+      }
+      summary ~ * {
+         padding:0 1em 0 1em;
+      }
+      summary:focus {
+        outline:0;
+        box-shadow: inset 0 0 1px rgba(0,0,0,0.3), inset 0 0 2px rgba(0,0,0,0.3);
+      }
+      details[open] summary ~ *{
+        animation: sweep .5s ease-in-out;
+      }
+      @keyframes sweep {
+        0%    {opacity: 0;}
+        100%  {opacity: 1;}
+      }
+      body{background: #ffffff;}
+
+      .cena {
+        /* МАНИКЮР ПЕДИКЮР БРОВИ, РЕСНИЦЫ, МАКИЯЖ МАССАЖ ТЕЛА МАССАЖ ЛИЦА ЭСТЕТИЧЕСКАЯ КОСМЕТОЛОГИЯ ИНЪЕКЦИОННАЯ КОСМЕТОЛОГИЯ ДЕПИЛЯЦИЯ / ШУГАРИНГ ПАРИКМАХЕРСКИЕ УСЛУГИ ОКРАШИВАНИЕ ВОЛОС ЭСТЕТИКА ВОЛОС БОТОКС И КЕРАТИН ДЛЯ ВОЛОС */
+
+    position: absolute;
+    width: 1486px;
+    height: 1578px;
+    left: calc(50% - 1486px/2);
+    top: 3679px;
+
+    font-family: 'Lao Muang Don';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    letter-spacing: 0.2em;
+
+    color: #000000;
+
+
+        }
+
+
+
+
+
